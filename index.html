@@ -1,0 +1,57 @@
+<html>
+    <body>
+        <h2>Me</h2>
+        <form name="me">
+            <div align="center">
+                <label>
+                    <input type="radio" name="gender" value="male" checked="checked" /> Male
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female" /> Female
+                </label>
+            </div>
+            <div align="center">
+                <label>
+                    <input type="radio" name="what" value="sex" checked="checked" /> Sex
+                </label>
+                <label>
+                    <input type="radio" name="what" value="kiss" /> Kiss
+                </label>
+                <label>
+                    <input type="radio" name="what" value="hug" /> Hug
+                </label>
+            </div>
+        </form>
+        <h2>Want</h2>
+        <form name="want">
+            <div align="center">
+                <label>
+                    <input type="radio" name="gender" value="male" /> Male
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female" checked="checked" /> Female
+                </label>
+            </div>
+            <div align="center">
+                <label>
+                    <input type="radio" name="what" value="sex" checked="checked" /> Sex
+                </label>
+                <label>
+                    <input type="radio" name="what" value="kiss" /> Kiss
+                </label>
+                <label>
+                    <input type="radio" name="what" value="hug" /> Hug
+                </label>
+            </div>
+        </form>
+        <div align="center">
+            <input type="button" value="go" id="go" />
+        </div>
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://cdn.appbase.io/appbase.js"></script>
+        <script>
+            Appbase.credentials("mauler", "592140329e709a3ddf8dda6f6e880871")
+        </script>
+        <script src="tinder.js"></script>
+    </body>
+</html>
